@@ -1,7 +1,7 @@
 const request = require("supertest")("https://reqres.in");
 const expect = require("chai").expect;
 
-describe("Create User Reqrest", function () {
+describe("Create User Reqres", function () {
     it("Success Create User", async function () {
         const response = await request
             .post("/api/users")
